@@ -26,8 +26,21 @@ public class tipeDatabknPrimitif {
         double panjangjalan = 1200.0; /* masih primitf */
         Double inibknprimitif = panjangjalan; /* convert jadi bukan primitif */
         inibknprimitif = null;
-       System.out.println(inibknprimitif);
+        System.out.println(inibknprimitif);
+
+        /* konversi dari tipe data primitif ke bukan primitf/sebaliknya */
+        int age = 20;   /* kompetebele/ harus sama konversi nya */
+        Integer ageobject = age;
+        System.out.println(ageobject);
         
+        /*konversi yang berbeda tipe data  */
+        /*int umur = 80;*/  
+        short umurobject = ageobject.shortValue();
+        System.out.println(umurobject);
+
+        Long gaji = 12_000_000L;
+        gaji.byteValue();
+        System.out.println(gaji);
     }
     
 }
